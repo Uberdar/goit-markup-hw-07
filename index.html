@@ -13,11 +13,7 @@
       href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap"
       rel="stylesheet"
     />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
+    <link rel="stylesheet" href="./css/main.min.css">
   </head>
   <body>
     <header class="header">
@@ -27,15 +23,17 @@
             ><span class="logo-accent">Web</span>Studio</a
           >
           <ul class="site-nav">
-            <li class="nav-unit">
+            <li class="site-nav__unit nav-unit">
               <a class="current" href="./index.html">Студия</a>
             </li>
-            <li class="nav-unit"><a href="./portfolio.html">Портфолио</a></li>
-            <li class="nav-unit"><a href="#">Контакты</a></li>
+            <li class="site-nav__unit">
+              <a href="./portfolio.html">Портфолио</a>
+            </li>
+            <li class="site-nav__unit"><a href="#">Контакты</a></li>
           </ul>
         </nav>
         <ul class="header-contacts">
-          <li class="contact-unit">
+          <li class="contact__unit">
             <a class="contact mail" href="mailto:info@devstudio.com">
               <svg class="contact-icon" width="16" height="12">
                 <use href="images/index/icons.svg#icon-envelope"></use>
@@ -43,7 +41,7 @@
               info@devstudio.com</a
             >
           </li>
-          <li class="contact-unit">
+          <li class="contact__unit">
             <a class="contact tel" href="tel:+380961111111">
               <svg class="contact-icon" width="10" height="16">
                 <use href="images/index/icons.svg#icon-smartphone"></use>
@@ -70,50 +68,50 @@
       <section class="ocupation section">
         <div class="container">
           <h2 class="visually-hidden title">Род занятий</h2>
-          <ul class="ocupation-list">
-            <li class="ocupation-unit">
-              <div class="ocupation-svg">
+          <ul class="ocupation__list">
+            <li class="ocupation__unit">
+              <div class="ocupation__svg">
                 <svg>
                   <use href="./images/index/icons.svg#icon-antenna"></use>
                 </svg>
               </div>
-              <h3 class="ocupation-title title">внимание к деталям</h3>
+              <h3 class="ocupation__title title">внимание к деталям</h3>
               <p class="text">
                 Идейные соображения, а также начало повседневной работы по
                 формированию позиции.
               </p>
             </li>
-            <li class="ocupation-unit">
-              <div class="ocupation-svg">
+            <li class="ocupation__unit">
+              <div class="ocupation__svg">
                 <svg>
                   <use href="./images/index/icons.svg#icon-clock"></use>
                 </svg>
               </div>
-              <h3 class="ocupation-title title">пунктуальность</h3>
+              <h3 class="ocupation__title title">пунктуальность</h3>
               <p class="text">
                 Задача организации, в особенности же рамки и место обучения
                 кадров влечет за собой.
               </p>
             </li>
-            <li class="ocupation-unit">
-              <div class="ocupation-svg">
+            <li class="ocupation__unit">
+              <div class="ocupation__svg">
                 <svg>
                   <use href="./images/index/icons.svg#icon-diagram"></use>
                 </svg>
               </div>
-              <h3 class="ocupation-title title">плaнирование</h3>
+              <h3 class="ocupation__title title">плaнирование</h3>
               <p class="text">
                 Равным образом консультация с широким активом в значительной
                 степени обуславливает.
               </p>
             </li>
-            <li class="ocupation-unit">
-              <div class="ocupation-svg">
+            <li class="ocupation__unit">
+              <div class="ocupation__svg">
                 <svg>
                   <use href="./images/index/icons.svg#icon-astronaut"></use>
                 </svg>
               </div>
-              <h3 class="ocupation-title title">современные технологии</h3>
+              <h3 class="ocupation__title title">современные технологии</h3>
               <p class="text">
                 Значимость этих проблем настолько очевидна, что реализация
                 плановых заданий.
@@ -125,9 +123,9 @@
       <section class="ocupation-pics section">
         <div class="container">
           <h2 class="title">Чем мы занимаемся</h2>
-          <ul class="ocupation-pics-block">
+          <ul class="ocupation-pics__block">
             <li>
-              <div class="ocupation-pics-unit">
+              <div class="ocupation-pics__unit">
                 <img
                   src="./images/index/boxone.jpg"
                   alt="working process"
@@ -137,7 +135,7 @@
               </div>
             </li>
             <li>
-              <div class="ocupation-pics-unit">
+              <div class="ocupation-pics__unit">
                 <img
                   src="./images/index/boxtwo.jpg"
                   alt="working process"
@@ -147,7 +145,7 @@
               </div>
             </li>
             <li>
-              <div class="ocupation-pics-unit">
+              <div class="ocupation-pics__unit">
                 <img
                   src="./images/index/boxthree.jpg"
                   alt="working process"
@@ -163,15 +161,15 @@
       <section class="team section">
         <div class="container">
           <h2 class="title">Наша команда</h2>
-          <ul class="team-list">
-            <li class="team-unit">
+          <ul class="team__list">
+            <li class="team__unit">
               <img src="./images/index/unitone.jpg" alt="worker" width="270" />
-              <div class="content-team-box">
+              <div class="team-box">
                 <h3 class="title unit-name">Игорь Демьяненко</h3>
                 <p class="position">Product Designer</p>
                 <ul class="hot-links">
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-instagram"
@@ -179,15 +177,15 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use href="./images/index/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-facebook"
@@ -195,8 +193,8 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-linkedin"
@@ -207,14 +205,14 @@
                 </ul>
               </div>
             </li>
-            <li class="team-unit">
+            <li class="team__unit">
               <img src="./images/index/unittwo.jpg" alt="worker" width="270" />
-              <div class="content-team-box">
+              <div class="team-box">
                 <h3 class="title unit-name">Ольга Репина</h3>
                 <p class="position">Frontend Developer</p>
                 <ul class="hot-links">
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-instagram"
@@ -222,15 +220,15 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use href="./images/index/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-facebook"
@@ -238,8 +236,8 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-linkedin"
@@ -250,18 +248,18 @@
                 </ul>
               </div>
             </li>
-            <li class="team-unit">
+            <li class="team__unit">
               <img
                 src="./images/index/unitthree.jpg"
                 alt="worker"
                 width="270"
               />
-              <div class="content-team-box">
+              <div class="team-box">
                 <h3 class="title unit-name">Николай Тарасов</h3>
                 <p class="position">Marketing</p>
                 <ul class="hot-links">
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-instagram"
@@ -269,15 +267,15 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use href="./images/index/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-facebook"
@@ -285,8 +283,8 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-linkedin"
@@ -297,14 +295,14 @@
                 </ul>
               </div>
             </li>
-            <li class="team-unit">
+            <li class="team__unit">
               <img src="./images/index/unitfour.jpg" alt="worker" width="270" />
-              <div class="content-team-box">
+              <div class="team-box">
                 <h3 class="title unit-name">Михаил Ермаков</h3>
                 <p class="position">UI Designer</p>
                 <ul class="hot-links">
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-instagram"
@@ -312,15 +310,15 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use href="./images/index/icons.svg#icon-twitter"></use>
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-facebook"
@@ -328,8 +326,8 @@
                       </svg>
                     </a>
                   </li>
-                  <li class="hot-links-unit">
-                    <a href="" class="hot-icon-link">
+                  <li class="hot-links__unit">
+                    <a href="" class="hot-links__icon-link">
                       <svg class="hot-icon">
                         <use
                           href="./images/index/icons.svg#icon-linkedin"
@@ -345,45 +343,45 @@
       </section>
       <section class="constant-clients section">
         <div class="container">
-          <h2 class="constant-clients-header title">Постоянные клиенты</h2>
-          <ul class="constant-clients-list">
-            <li class="constant-clients-unit">
-              <a href="" class="constant-clients-companies">
+          <h2 class="constant-clients__header title">Постоянные клиенты</h2>
+          <ul class="constant-clients__list">
+            <li class="constant-clients__unit">
+              <a href="" class="constant-clients__companies">
                 <svg>
                   <use href="images/index/icons.svg#icon-group1"></use>
                 </svg>
               </a>
             </li>
-            <li class="constant-clients-unit">
-              <a href="" class="constant-clients-companies">
+            <li class="constant-clients__unit">
+              <a href="" class="constant-clients__companies">
                 <svg>
                   <use href="images/index/icons.svg#icon-group2"></use>
                 </svg>
               </a>
             </li>
-            <li class="constant-clients-unit">
-              <a href="" class="constant-clients-companies">
+            <li class="constant-clients__unit">
+              <a href="" class="constant-clients__companies">
                 <svg>
                   <use href="images/index/icons.svg#icon-group3"></use>
                 </svg>
               </a>
             </li>
-            <li class="constant-clients-unit">
-              <a href="" class="constant-clients-companies">
+            <li class="constant-clients__unit">
+              <a href="" class="constant-clients__companies">
                 <svg>
                   <use href="images/index/icons.svg#icon-group4"></use>
                 </svg>
               </a>
             </li>
-            <li class="constant-clients-unit">
-              <a href="" class="constant-clients-companies">
+            <li class="constant-clients__unit">
+              <a href="" class="constant-clients__companies">
                 <svg>
                   <use href="images/index/icons.svg#icon-group5"></use>
                 </svg>
               </a>
             </li>
-            <li class="constant-clients-unit">
-              <a href="" class="constant-clients-companies">
+            <li class="constant-clients__unit">
+              <a href="" class="constant-clients__companies">
                 <svg>
                   <use href="images/index/icons.svg#icon-group6"></use>
                 </svg>
@@ -401,7 +399,7 @@
             ><span class="logo-accent">Web</span>Studio</a
           >
           <address>
-            <ul class="footer-contacts">
+            <ul class="footer__contacts">
               <li>
                 <a class="map-mark" href="#">г. Киев, пр-т Леси Украинки, 26</a>
               </li>
@@ -418,32 +416,32 @@
             </ul>
           </address>
         </div>
-        <div class="footer-join">
+        <div class="footer__join">
           <span>присоединяйтесь</span>
           <ul class="hot-links">
-            <li class="hot-links-unit">
-              <a href="" class="hot-icon-link">
+            <li class="hot-links__unit">
+              <a href="" class="hot-links__icon-link">
                 <svg class="hot-icon">
                   <use href="./images/index/icons.svg#icon-instagram"></use>
                 </svg>
               </a>
             </li>
-            <li class="hot-links-unit">
-              <a href="" class="hot-icon-link">
+            <li class="hot-links__unit">
+              <a href="" class="hot-links__icon-link">
                 <svg class="hot-icon">
                   <use href="./images/index/icons.svg#icon-twitter"></use>
                 </svg>
               </a>
             </li>
-            <li class="hot-links-unit">
-              <a href="" class="hot-icon-link">
+            <li class="hot-links__unit">
+              <a href="" class="hot-links__icon-link">
                 <svg class="hot-icon">
                   <use href="./images/index/icons.svg#icon-facebook"></use>
                 </svg>
               </a>
             </li>
-            <li class="hot-links-unit">
-              <a href="" class="hot-icon-link">
+            <li class="hot-links__unit">
+              <a href="" class="hot-links__icon-link">
                 <svg class="hot-icon">
                   <use href="./images/index/icons.svg#icon-linkedin"></use>
                 </svg>
@@ -452,11 +450,15 @@
           </ul>
         </div>
         <div class="subscribe">
-          <form class="subscribe-form">
-            <h2 class="subscribe-header">Подпишитесь на рассылку</h2>
-            <div class="subscribe-wrapper">
-              <input type="mail" class="subscribe-input" placeholder="E-mail" />
-              <button type="submit" class="subscribe-submit button">
+          <form class="subscribe__form">
+            <h2 class="subscribe__header">Подпишитесь на рассылку</h2>
+            <div class="subscribe__wrapper">
+              <input
+                type="mail"
+                class="subscribe__input"
+                placeholder="E-mail"
+              />
+              <button type="submit" class="subscribe__submit button">
                 Подписаться
                 <span class="telegramm-span">
                   <svg>
@@ -480,7 +482,7 @@
           </span>
         </button>
         <form class="index-form">
-          <h2 class="index-form-header title">
+          <h2 class="index-form__header title">
             Оставьте свои данные, мы вам перезвоним
           </h2>
           <label for="name">Имя</label>

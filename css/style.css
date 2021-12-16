@@ -94,10 +94,10 @@ header {
   display: flex;
   margin-left: 70px;
 }
-.nav-unit:not(:last-child) {
+.site-nav__unit:not(:last-child) {
   margin-right: 40px;
 }
-.nav-unit a {
+.site-nav__unit a {
   display: inline-block;
   color: var(--title-txt-color);
   text-decoration: none;
@@ -106,8 +106,8 @@ header {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.nav-unit a:hover,
-.nav-unit a:focus {
+.site-nav__unit a:hover,
+.site-nav__unit a:focus {
   color: var(--accent-txt-color);
 }
 header ul {
@@ -134,7 +134,7 @@ header .contact {
 .contact-icon {
   margin-right: 10px;
 }
-.nav-unit .current {
+.site-nav__unit .current {
   color: var(--accent-txt-color);
   position: relative;
 }
@@ -152,10 +152,10 @@ header .contact {
   display: flex;
   margin-left: auto;
 }
-.header-contacts .contact-unit:not(:last-child) {
+.header-contacts .contact__unit:not(:last-child) {
   margin-right: 30px;
 }
-.header-contacts .contact-unit + .contact-unit {
+.header-contacts .contact__unit + .contact-unit {
   margin-left: 15px;
 }
 
@@ -233,14 +233,14 @@ header .contact {
   width: 270px;
 }
 
-.ocupation-list {
+.ocupation__list {
   display: flex;
 }
-.ocupation-unit:not(:last-child) {
+.ocupation__unit:not(:last-child) {
   margin-right: 30px;
 }
 
-.ocupation-svg {
+.ocupation__svg {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -249,7 +249,7 @@ header .contact {
   height: 120px;
   margin-bottom: 30px;
 }
-.ocupation-svg svg {
+.ocupation__svg svg {
   width: 70px;
   height: 70px;
 }
@@ -257,10 +257,10 @@ header .contact {
 .ocupation-pics.section {
   padding-top: 0px;
 }
-.ocupation-pics-block {
+.ocupation-pics__block {
   display: flex;
 }
-.ocupation-pics-block li:not(:last-child) {
+.ocupation-pics__block li:not(:last-child) {
   margin-right: 30px;
 }
 .ocupation-pics .title {
@@ -271,16 +271,16 @@ header .contact {
   margin-bottom: 50px;
 }
 
-.ocupation-title.title {
+.ocupation__title.title {
   font-size: 14px;
   line-height: 1.14;
   text-transform: uppercase;
   margin-bottom: 10px;
 }
-.ocupation-pics-block li {
+.ocupation-pics__block li {
   position: relative;
 }
-.ocupation-pics-unit p {
+.ocupation-pics__unit p {
   position: absolute;
   display: flex;
   align-items: center;
@@ -302,10 +302,10 @@ header .contact {
 .team {
   background-color: var(--button-bg-color);
 }
-.team-list {
+.team__list {
   display: flex;
 }
-.team-unit:not(:last-child) {
+.team__unit:not(:last-child) {
   margin-right: 30px;
 }
 
@@ -319,17 +319,17 @@ header .contact {
 .team h2 {
   margin-bottom: 50px;
 }
-.content-team-box {
+.team-box {
   padding: 30px 0px;
 }
-.team-unit .title.unit-name {
+.team__unit .title.unit-name {
   font-size: 16px;
   font-weight: 500;
   /* 19 / 16 ~1.19 */
   line-height: 1.19;
   margin-bottom: 10px;
 }
-.team-unit {
+.team__unit {
   text-align: center;
   border-radius: 0px 0px 4px 4px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
@@ -337,7 +337,7 @@ header .contact {
   background-color: var(--primary-white-color);
 }
 
-.team-unit .position {
+.team__unit .position {
   font-size: 16px;
   line-height: 1.19;
   margin-bottom: 16px;
@@ -346,13 +346,13 @@ header .contact {
   display: flex;
   justify-content: center;
 }
-.hot-links-unit {
+.hot-links__unit {
   display: flex;
 }
-.hot-links-unit:not(:last-child) {
+.hot-links__unit:not(:last-child) {
   margin-right: 10px;
 }
-.hot-links-unit a {
+.hot-links__unit a {
   width: 44px;
   height: 44px;
   background-color: var(--primary-white-color);
@@ -366,8 +366,8 @@ header .contact {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.hot-links-unit a:hover,
-.hot-links-unit a:focus {
+.hot-links__unit a:hover,
+.hot-links__unit a:focus {
   background-color: var(--accent-txt-color);
   fill: var(--primary-white-color);
 }
@@ -375,20 +375,20 @@ header .contact {
   width: 20px;
   height: 20px;
 }
-.constant-clients-header {
+.constant-clients__header {
   text-align: center;
   font-size: 36px;
   font-weight: 700;
   line-height: calc(36 / 42);
   margin-bottom: 50px;
 }
-.constant-clients-list {
+.constant-clients__list {
   display: flex;
 }
-.constant-clients-unit:not(:last-child) {
+.constant-clients__unit:not(:last-child) {
   margin-right: 30px;
 }
-.constant-clients-companies {
+.constant-clients__companies {
   width: 170px;
   height: 92px;
   display: flex;
@@ -402,12 +402,12 @@ header .contact {
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
-.constant-clients-companies:hover,
-.constant-clients-companies:focus {
+.constant-clients__companies:hover,
+.constant-clients__companies:focus {
   border: 1px solid var(--accent-txt-color);
   fill: var(--accent-txt-color);
 }
-.constant-clients-companies svg {
+.constant-clients__companies svg {
   width: 106px;
   height: 60px;
 }
@@ -424,13 +424,13 @@ footer .logo {
   margin-bottom: 20px;
 }
 
-.footer-contacts {
+.footer__contacts {
   line-height: 1.71;
 }
-.footer-contacts li {
+.footer__contacts li {
   margin-bottom: 9px;
 }
-.footer-contacts a {
+.footer__contacts a {
   text-decoration: none;
 }
 address {
@@ -455,11 +455,11 @@ address .contact {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.footer-join {
+.footer__join {
   display: block;
   margin-left: 70px;
 }
-.footer-join span {
+.footer__join span {
   font-weight: 700;
   color: var(--primary-white-color);
   text-transform: uppercase;
@@ -468,7 +468,7 @@ address .contact {
   letter-spacing: 0.03em;
 }
 
-.footer-join .hot-icon-link {
+.footer__join .hot-links__icon-link {
   background-color: var(--footer-tertiary-color);
   fill: var(--primary-white-color);
 }
@@ -480,7 +480,7 @@ address .contact {
 .subscribe {
   margin-left: 93px;
 }
-.subscribe-header {
+.subscribe__header {
   font-size: 14px;
   font-weight: 700;
   line-height: 1.14;
@@ -489,10 +489,10 @@ address .contact {
   color: var(--primary-white-color);
   margin-bottom: 20px;
 }
-.subscribe-wrapper {
+.subscribe__wrapper {
   display: flex;
 }
-.subscribe-input {
+.subscribe__input {
   height: 50px;
   width: 360px;
   border: 1px solid rgba(255, 255, 255, 0.3);
@@ -504,12 +504,12 @@ address .contact {
   color: var(--primary-white-color);
 }
 
-.subscribe-input:focus {
+.subscribe__input:focus {
   border: none;
   outline: 1px solid var(--accent-txt-color);
 }
 
-.subscribe-submit {
+.subscribe__submit {
   display: flex;
   align-items: center;
   justify-content: center;
@@ -539,19 +539,19 @@ address .contact {
 
 /* portfolio */
 
-.filter-buttons,
-.filter-list {
+.filter__buttons,
+.filter__list {
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
 }
-.filter-buttons {
+.filter__buttons {
   margin-bottom: 50px;
 }
-.filter-buttons li:not(:last-child) {
+.filter__buttons li:not(:last-child) {
   margin-right: 8px;
 }
-.filter-list {
+.filter__list {
   margin: -15px;
 }
 .list-unit {
@@ -563,7 +563,7 @@ address .contact {
   box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 0px 4px 4px rgba(0, 0, 0, 0.06),
     1px 4px 6px rgba(0, 0, 0, 0.16);
 }
-.list-unit-content {
+.list-unit__content {
   padding: 20px 24px;
 }
 .list-unit h2 {
@@ -577,11 +577,11 @@ address .contact {
   font-size: 16px;
   line-height: 1.6;
 }
-.filter-unit-active {
+.filter__unit-active {
   position: relative;
   overflow: hidden;
 }
-.filter-unit-active p {
+.filter__unit-active p {
   position: absolute;
 
   top: 0;
@@ -601,7 +601,7 @@ address .contact {
   transition: transform 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.list-unit:hover .filter-active-text {
+.list-unit:hover .filter__active-text {
   transform: translateY(0);
 }
 
@@ -665,7 +665,7 @@ address .contact {
   justify-content: center;
   align-items: center;
   cursor: pointer;
-  transition: fill  250ms cubic-bezier(0.4, 0, 0.2, 1);
+  transition: fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 .close-backdrop svg {
   width: 18px;
@@ -681,7 +681,7 @@ address .contact {
   align-items: center;
   padding: 40px;
 }
-.index-form-header {
+.index-form__header {
   font-size: 20px;
   letter-spacing: 0.03em;
   line-height: 1.15;
@@ -700,7 +700,6 @@ address .contact {
   width: 18px;
   height: 18px;
   left: 12px;
-
 }
 .common-form input {
   padding-left: 42px;
