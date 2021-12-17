@@ -1,36 +1,36 @@
 .team {
     background-color: var(--button-bg-color);
-    & .title {
+    .title {
         font-size: 36px;
         /* line height 42 / font size 36 = ~1.17 */
         line-height: 1.17;
         text-align: center;
       }
-      & h2 {
+      h2 {
         margin-bottom: 50px;
       }
   }
-  .team__list {
+  .team-list {
     display: flex;
   }
   .team-box {
     padding: 30px 0px;
   }
 
-  .team__unit {
+  .team-list__unit {
     text-align: center;
     border-radius: 0px 0px 4px 4px;
     box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
       0px 2px 1px rgba(0, 0, 0, 0.2);
     background-color: var(--primary-white-color);
-    & .title.unit-name {
+    .title.unit-name {
         font-size: 16px;
         font-weight: 500;
         /* 19 / 16 ~1.19 */
         line-height: 1.19;
         margin-bottom: 10px;
       }
-      & .position {
+      .position {
         font-size: 16px;
         line-height: 1.19;
         margin-bottom: 16px;
@@ -48,7 +48,7 @@
     &:not(:last-child) {
         margin-right: 10px;
       }
-      & a {
+      a {
         width: 44px;
         height: 44px;
         background-color: var(--primary-white-color);
@@ -62,8 +62,8 @@
         transition-duration: 250ms;
         transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
       }
-      & a:hover,
-      & a:focus {
+      a:hover,
+      a:focus {
         background-color: var(--accent-txt-color);
         fill: var(--primary-white-color);
       }
