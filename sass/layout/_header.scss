@@ -56,12 +56,12 @@ header {
   ul {
     font-weight: 500;
   }
-  .contact:hover,
-  .contact:focus {
+  .header-contacts__link:hover,
+  .header-contacts__link:focus {
     color: var(--accent-txt-color);
     fill: var(--accent-txt-color);
   }
-  .contact {
+  .header-contacts__link {
     color: var(--primary-txt-color);
     text-decoration: none;
     fill: var(--primary-txt-color);
@@ -76,7 +76,7 @@ header {
   display: flex;
   align-items: center;
 }
-.contact-icon {
+.header-contacts__icon{
   margin-right: 10px;
 }
 
@@ -94,12 +94,12 @@ header {
 .header-contacts {
   display: flex;
   margin-left: auto;
-  .contact__unit:not(:last-child) {
+  .header-contacts__unit:not(:last-child) {
     margin-right: 30px;
   }
-  .contact__unit + .contact-unit {
-    margin-left: 15px;
-  }
+// .header-contacts__unit + .header-contacts__unit {
+//   margin-left: 15px;
+// }
 }
 
 /* header end */

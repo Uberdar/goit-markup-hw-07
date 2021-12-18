@@ -17,7 +17,7 @@
     padding: 200px 0px;
   }
 }
-.main-header {
+.business-solutions__main-header {
   text-align: center;
   padding-bottom: 30px;
   color: var(--primary-white-color);
@@ -27,12 +27,12 @@
   text-transform: uppercase;
 }
 
-.main-button.button {
+.business-solutions__main-button.button {
   padding: 10px 32px;
   margin-right: 0;
 }
 
-.main-button.button,
+.business-solutions__main-button.button,
 .button:hover,
 .button:focus {
   color: var(--primary-white-color);

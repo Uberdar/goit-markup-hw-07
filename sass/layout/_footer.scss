@@ -26,19 +26,20 @@
 
 address {
   font-style: normal;
-  .map-mark {
+  .footer-contacts__map-mark {
     color: var(--primary-white-color);
     transition-property: color;
     transition-duration: 250ms;
     transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
   }
-  .map-mark:hover,
-  .map-mark:focus,
+  .footer-contacts__map-mark:hover,
+  .footer-contacts__map-mark:focus,
   .contact:hover,
   .contact:focus {
     color: var(--accent-txt-color);
   }
-  .contact {
+  .footer-contacts__tel,
+  .footer-contacts__mail {
     color: var(--footer-secondary-color);
     transition-property: color;
     transition-duration: 250ms;
